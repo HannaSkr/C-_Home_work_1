@@ -36,3 +36,4 @@ string x2 = new String(arr);
 if (x1 == x2) Console.WriteLine("Палиндром");
  else Console.WriteLine("Не палиндром");
 
+
