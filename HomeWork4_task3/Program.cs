@@ -6,10 +6,13 @@
 Console.Write("Введите количество элементов массива:\t");
 int elementsNumber = int.Parse(Console.ReadLine());
 int[] myArray = new int[elementsNumber];
+Random asd = new Random();
 
 for(int i = 0; i < myArray.Length; i++)
 {
-        myArray[i] = new Random().Next(0, myArray.Length);
-        Console.Write($"{myArray[i]} ");
+        myArray[i] = asd.Next(0, myArray.Length);             
 }
-
+Console.WriteLine();
+Console.WriteLine(string.Join(", ", myArray));
+Console.WriteLine();
+Console.WriteLine($"[{string.Join(", ", myArray)}]");
