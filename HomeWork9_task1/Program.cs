@@ -23,6 +23,7 @@ int GetNumber(string message)
     return result;
 }
 
+
 //вывод чісел от n до 1
 string GetValues(int n)
 {
