@@ -33,7 +33,7 @@ int SumInterval (int n, int m)
         return SumInterval(n-1, m) + n;
     } else {
         if (n == m) return n;
-        return SumInterval(n-1, m) + n;
+        return SumInterval(n+1, m) + n;
     }     
 }
   
