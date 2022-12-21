@@ -34,7 +34,7 @@ int GetSummOddPosition(int [] array)
 }
 
 Console.WriteLine("Ведите размер массива");
-float[] array = GetArray(float.Parse(Console.ReadLine() ?? ""));
+int[] array = GetArray(int.Parse(Console.ReadLine() ?? ""));
 PrintArray(array);
 Console.WriteLine();
 Console.WriteLine($"Сумма чисел на нечетных позициях в массиве: {GetSummOddPosition(array)}");

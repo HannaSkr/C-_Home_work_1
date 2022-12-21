@@ -33,5 +33,6 @@ string GetValues(int n)
 
 int n = GetNumber("Введите число больше 1");
 
+
 GetValues(n);
 Console.WriteLine(GetValues(n));
